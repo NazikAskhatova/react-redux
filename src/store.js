@@ -1,4 +1,4 @@
-import { createStore} from "react-redux";
-import reducer from "./reducer"
+// import { createStoreHook} from "react-redux";
+
  
-export default createStore()
+// export default createStoreHook()

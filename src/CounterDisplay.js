@@ -1,7 +1,7 @@
 
 function CounterDisplay({ counter }) {
     return (
-      <h1 className="App">
+      <h1 className="CounterDisplay">
         {counter}
       </h1>
     );

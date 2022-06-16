@@ -1,5 +1,6 @@
 import CounterControls from "./CounterControls";
 import CounterDisplay from "./CounterDisplay";
+import { useState } from "react";
 
 function Counter() {
     const [counter, setCounter] = useState(0);
@@ -15,7 +16,7 @@ function Counter() {
   return (
       <div className="Counter">
         <CounterDisplay counter={counter}/>  
-        <CounterControls onDecrement={onDEcrement} onIncrement={onIncrement}/>
+        <CounterControls onDecrement={onDecrement} onIncrement={onIncrement}/>
       </div>
       
   )

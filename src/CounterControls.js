@@ -1,8 +1,10 @@
 
-function CounterControls() {
+function CounterControls({ onIncrement, onDecrement, onReset }) {
     return (
-      <div className="App">
-        
+      <div className="CounterControls">
+        <button onClick={onIncrement}></button>
+        <button onClick={onDecrement}></button>
+        <button onClick={onReset}></button>
       </div>
     );
   }
