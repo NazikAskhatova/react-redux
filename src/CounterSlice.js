@@ -17,6 +17,9 @@ const counterSlice = createSlice({
     reset: function (store) {
         store.number = 0;
       },
+      set: function (store, action) {
+        store.number = action.payload;
+      },
   
   },
 });

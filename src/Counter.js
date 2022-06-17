@@ -1,5 +1,6 @@
 import CounterControls from "./CounterControls";
 import CounterDisplay from "./CounterDisplay";
+import CounterSet from "./CounterSet"
 // import { useState } from "react";
 
 function Counter() {
@@ -7,6 +8,7 @@ function Counter() {
     return <div className="Counter">
 <CounterDisplay/>
 <CounterControls/>
+<CounterSet/>
     </div>
     // const [counter, setCounter] = useState(0);
 
