@@ -12,10 +12,12 @@ const counterSlice = createSlice({
       store.number++;
     },
     decrement: function (store) {
-      // store.number = store.number + 1
-      // store.number += 1;
       store.number--;
     },
+    reset: function (store) {
+        store.number = 0;
+      },
+  
   },
 });
 

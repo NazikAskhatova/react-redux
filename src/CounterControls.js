@@ -5,7 +5,9 @@ function CounterControls() {
   return (
     <div className="CounterControls">
       <button onClick={() => dispatch({ type: "counter/decrement" })}>-</button>
+      <button onClick={() => dispatch({ type: "counter/reset" })}>reset</button>
       <button onClick={() => dispatch({ type: "counter/increment" })}>+</button>
+      
     </div>
   );
 }
