@@ -11,6 +11,11 @@ const counterSlice = createSlice({
       // store.number += 1;
       store.number++;
     },
+    decrement: function (store) {
+      // store.number = store.number + 1
+      // store.number += 1;
+      store.number--;
+    },
   },
 });
 

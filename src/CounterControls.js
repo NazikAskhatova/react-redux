@@ -1,13 +1,13 @@
 import { useDispatch } from "react-redux";
 
-
 function CounterControls() {
   const dispatch = useDispatch();
   return (
     <div className="CounterControls">
-      <button onClick={() => dispatch({type: 'counter/increment' })}>+</button>
-      </div>
-  )
+      <button onClick={() => dispatch({ type: "counter/decrement" })}>-</button>
+      <button onClick={() => dispatch({ type: "counter/increment" })}>+</button>
+    </div>
+  );
 }
 // function CounterControls({ onIncrement, onDecrement, onReset }) {
 //     return (
@@ -18,6 +18,5 @@ function CounterControls() {
 //       </div>
 //     );
 //   }
-  
-  export default CounterControls;
-  
+
+export default CounterControls;
